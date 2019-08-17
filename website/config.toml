@@ -1,0 +1,56 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "Personal website and blog"
+theme = "hugo-refresh"
+disableKinds = [
+  "sitemap",
+  "RSS"
+]
+publishDir = "../docs"
+
+[blackfriday]
+hrefTargetBlank = true
+
+[Taxonomies]
+tag = "tags"
+
+[params]
+jsMinify = false
+jsFingerprint = false
+cssMinify = true
+cssFingerprint = true
+mainColour = "#F39200"
+
+  [params.summary]
+  defaultImage = "/images/default_summary.jpg"
+
+  [params.loading]
+  image = "/images/rings.svg"
+
+  [params.mainPage]
+  fontFamily = "Open Sans"
+
+  [params.sidebar]
+  logo = "/images/refresh-square.svg"
+  fontFamily = "Open Sans"
+
+  [params.navbar]
+  fontFamily = "Open Sans"
+
+  [params.pagNotFound]
+  image = "/images/avataaars_404.png"
+  title = "404 Page Not Found :("
+  subtitle = "This is not the page you were looking for..."
+  imageWidth = "500px"
+
+  [params.homepage]
+  title = "Julia The White"
+  subtitle = "Personal website and blog"
+  image = "/images/avataaars.png"
+  imageWidth = "500px"
+
+  [params.footer]
+  logo = "/images/refresh-square.svg"
+  email = "name.surname@domain.com"
+  linkedin = "https://www.linkedin.com/your_linkedin_profile/"
+  copyright = "Julia The White - 2019"
