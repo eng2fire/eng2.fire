@@ -1,4 +1,4 @@
-baseURL = "https://eng2fire.github.io/"
+baseURL = "https://eng2fire.github.io/main"
 languageCode = "en-us"
 title = "Personal website and blog"
 theme = "hugo-refresh"
@@ -6,8 +6,7 @@ theme = "hugo-refresh"
 publishDir = "../docs"
 
 disableKinds = [
-  "sitemap",
-  "RSS"
+  "sitemap"
 ]
 
 [blackfriday]
