@@ -1,0 +1,14 @@
+install choco for windows first then use it to get all the shit
+
+need install hugo extended ed otherwise site won't compile:
+choco install hugo-extended
+
+run site locally: MUST BE IN WEBSITE FOLDER
+hugo server -D  --buildDrafts
+
+publish site:
+hugo
+
+
+
+

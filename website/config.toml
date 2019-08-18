@@ -2,7 +2,9 @@ baseURL = "https://eng2fire.github.io/"
 languageCode = "en-us"
 title = "Personal website and blog"
 theme = "hugo-refresh"
+
 publishDir = "../docs"
+
 disableKinds = [
   "sitemap",
   "RSS"
